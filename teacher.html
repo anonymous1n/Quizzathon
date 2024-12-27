@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard - Quizathon</title>
+    <link rel="stylesheet" href="teacher.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One">
+</head>
+<body>
+    <div class="header">
+        <h1>Teacher Dashboard - Quizathon</h1>
+    </div>
+
+    <div class="sidebar">
+        <a href="#dashboard" onclick="showSection('dashboard')">Dashboard</a>
+        <a href="#manage-quizzes" onclick="showSection('manage-quizzes')">Manage Quizzes</a>
+        <a href="#student-performance" onclick="showSection('student-performance')">Student Performance</a>
+        <a href="#settings" onclick="showSection('settings')">Settings</a>
+    </div>
+
+    <div class="content">
+        <div id="dashboard" class="card">
+            <h2>Dashboard Overview</h2>
+            <p>Welcome to your dashboard. Here you can manage your quizzes and view student performance.</p>
+        </div>
+        
+        <div id="manage-quizzes" class="card" style="display:none;">
+            <h2>Manage Quizzes</h2>
+            <p>Here you can create, edit, and delete quizzes.</p>
+            <button class="button1" onclick="createQuiz()">Create New Quiz</button>
+        </div>
+        
+        <div id="student-performance" class="card" style="display:none;">
+            <h2>Student Performance</h2>
+            <p>View the performance of your students in the quizzes.</p>
+        </div>
+        
+        <div id="settings" class="card" style="display:none;">
+            <h2>Settings</h2>
+            <p>Adjust your account settings and preferences.</p>
+        </div>
+    </div>
+
+    <script src="teacherScript.js"></script>
+</body>
+</html>

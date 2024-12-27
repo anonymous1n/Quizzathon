@@ -1,0 +1,33 @@
+
+body {
+    font-family: Cinzel, serif; /* Use your preferred body font here */
+    margin: 0;
+    padding: 0;
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+}
+
+.container {
+    width: 80%; /* Control the width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    text-align: center; /* Center align the text */
+    background-color: transparent; /* Set a white background for the text container */
+    border-radius: 10px; /* Round the corners of the container */
+}
+
+h1 {
+    font-family: Cinzel, serif;
+    font-size: 46px;  
+}
+    
+
+p {
+    font-family: 'Fauna One', serif;
+    font-size: 16px; /* Set the font size for paragraphs */
+    color: black; /* Set the text color */
+    line-height: 1.6; /* Improve readability */
+    margin-bottom: 16px; /* Space out the paragraphs */
+    
+  
+}
